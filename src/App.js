@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Generate Animation Text GIFS</h1>
+        <h1>Generate Animation GIFS</h1>
       </header>
         <h3>Type text into the form and hit submit</h3>
         <input className='input-field' id="gifs" name="gifs" value={searchTerm} onChange={handleInput}/>
