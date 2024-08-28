@@ -13,13 +13,4 @@ const TextList = (props) => {
     )
 }
 
-// const Item = (props) => {
-//     return (
-//         <div className="gif-item">
-//             <img 
-//             src={props.url}  />
-//         </div>
-//     )
-// }
-
 export default TextList

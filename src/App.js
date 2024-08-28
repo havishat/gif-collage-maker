@@ -34,8 +34,8 @@ function App() {
                 limit: 10
             }
         });
-      //  setGifs(response.data.data);
-        setResults(response.data.data)
+        const data = await response.json();
+        setResults(data.data)
     } catch (error) {
         console.error('Error fetching the Giphy API', error);
     }
